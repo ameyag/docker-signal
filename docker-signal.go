@@ -57,7 +57,7 @@ func main() {
 		fmt.Println("Error: pid must be supplied")
 		return
 	}
-	key := "stackdump"
+	key := "docker-daemon"
 	if debugger {
 		key = "debugger"
 	}
